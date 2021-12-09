@@ -14,7 +14,10 @@ function myFunction() {
     var x = document.getElementById("myText").value;
     if(x=="") {
          alert("please type any name of fruit");     }
-     else        {
+     else      
+     
+     {
+        fruits.sort();{
          if(fruits.includes(x))
          {
          alert("Fruit alredy in List");
@@ -22,10 +25,12 @@ function myFunction() {
          }
             else
         {
+           
             fruits.push(x);
         }              
         document.getElementById("demo").innerHTML = fruits;
-        }       
+        }
+     }      
 }
 </script>
 </body>
