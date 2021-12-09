@@ -8,16 +8,15 @@
 <p id="demo"></p>
 <script>
 const fruits = ["Banana", "Orange", "Apple"];
-
+//fruits.sort();
 document.getElementById("demo").innerHTML = fruits;
 function myFunction() {
     var x = document.getElementById("myText").value;
+  
     if(x=="") {
          alert("please type any name of fruit");     }
-     else      
-     
-     {
-        fruits.sort();{
+     else           
+     {        
          if(fruits.includes(x))
          {
          alert("Fruit alredy in List");
@@ -30,7 +29,7 @@ function myFunction() {
         }              
         document.getElementById("demo").innerHTML = fruits;
         }
-     }      
+         
 }
 </script>
 </body>
